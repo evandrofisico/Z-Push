@@ -133,7 +133,7 @@ class ZPushAdminCLI {
                 "\tresync -t TYPE \t\t\t\t Resynchronizes all folders of type (possible values above) for all devices and users.\n" .
                 "\tresync -t TYPE -u USER \t\t\t Resynchronizes all folders of type (possible values above) for the user USER.\n" .
                 "\tresync -t TYPE -u USER -d DEVICE\t Resynchronizes all folders of type (possible values above) for a specified device and user.\n" .
-                "\tresync -t FOLDERID -u USER\t\t Resynchronize the specified folder id only. The USER should be specified for better performance.\n" .
+                "\tresync -t TYPE -f FOLDERID -u USER\t\t Resynchronize the specified folder id only. The USER should be specified for better performance.\n" .
                 "\tresync -t hierarchy -u USER -d DEVICE\t Resynchronize the folder hierarchy data for an optional USER and optional DEVICE.\n" .
                 "\tclearloop\t\t\t\t Clears system wide loop detection data.\n" .
                 "\tclearloop -d DEVICE -u USER\t\t Clears all loop detection data of a device DEVICE and an optional user USER.\n" .
