@@ -3,5 +3,9 @@ Z-Push is an open-source application to synchronize ActiveSync compatible device
 
 Z-Push can be easily installed using our package repositories, see the [install instructions](https://wiki.z-hub.io/display/ZP/Installation) for more information.
 
+# Redis
+
+This fork adds support for Redis as a IPC backend. 
+
 # Contributing
 Please see the [Z-Push Wiki](https://wiki.z-hub.io/display/ZP/Development+guidelines) for contribution information.
