@@ -71,6 +71,7 @@ return array(
     'ImportChangesStream' => $baseDir . '/lib/core/streamimporter.php',
     'ImportHierarchyChangesCombinedWrap' => $baseDir . '/backend/combined/importer.php',
     'InterProcessData' => $baseDir . '/lib/core/interprocessdata.php',
+    'IpcRedisProvider' => $baseDir . '/backend/ipcredis/ipcredisprovider.php',
     'IpcMemcachedProvider' => $baseDir . '/backend/ipcmemcached/ipcmemcachedprovider.php',
     'IpcSharedMemoryProvider' => $baseDir . '/backend/ipcsharedmemory/ipcsharedmemoryprovider.php',
     'IpcWincacheProvider' => $baseDir . '/backend/ipcwincache/ipcwincacheprovider.php',

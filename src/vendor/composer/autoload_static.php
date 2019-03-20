@@ -78,6 +78,7 @@ class ComposerStaticInit153a56a781a72686b71399955d98204f
         'ImportChangesStream' => __DIR__ . '/../..' . '/lib/core/streamimporter.php',
         'ImportHierarchyChangesCombinedWrap' => __DIR__ . '/../..' . '/backend/combined/importer.php',
         'InterProcessData' => __DIR__ . '/../..' . '/lib/core/interprocessdata.php',
+	'IpcRedisProvider' => __DIR__ . '/../..' . '/backend/ipcredis/ipcredisprovider.php',
         'IpcMemcachedProvider' => __DIR__ . '/../..' . '/backend/ipcmemcached/ipcmemcachedprovider.php',
         'IpcSharedMemoryProvider' => __DIR__ . '/../..' . '/backend/ipcsharedmemory/ipcsharedmemoryprovider.php',
         'IpcWincacheProvider' => __DIR__ . '/../..' . '/backend/ipcwincache/ipcwincacheprovider.php',
